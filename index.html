@@ -1,0 +1,40 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Tip Calculator</title>
+  </head>
+  <body>  
+    <div id="container">
+      <div class="blocks" id="top">
+        <div class="blocks" id="top">
+          <h1 id="title">Tip Calculator</h1>
+        </div>
+        <form id="form" name="myForm">
+          <input id="bill" type="text" placeholder="Bill Amount">
+          <div class="tip" role="group" aria-label="First group">
+            <div class="input-group-text" id="btnGroupAddon">Percentage</div>
+              <div class="tip">
+                <button type="button" id="tip-5" onclick="gettip(5)">5%</button>
+                <button type="button" id="tip-10" onclick="gettip(10)">10%</button>
+                <button type="button" id="tip-15" onclick="gettip(15)">15%</button>
+                <button type="button" id="tip-20" onclick="gettip(20)">20%</button>
+              </div>
+          </div>
+          <div class="input-group-text" id="btnGroupAddon">Custom</div>
+            <input type="text" class="form-control" id="tip" placeholder="Custom Tip" min="0" onkeyup="customperc()" aria-label="Input group example" aria-describedby="btnGroupAddon">
+          <div>
+            <label for="TipAmount">Tip Amount:</label>
+              <h1 id="tipamount"></h1>
+          </div>
+          <button onclick="Reset()" id="tipamount">Reset</button>
+        </form>
+      </div>
+    </div>
+    </body>
+  <script type="text/javascript" src="script.js"></script>
+  </html>

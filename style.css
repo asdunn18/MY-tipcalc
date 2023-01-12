@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  max-width: 600px;
+  margin: 80px auto;
+  border-radius: 52px;
+  background: #81dedf;
+  box-shadow: inset -12px 12px 19px #569595,
+            inset 12px -12px 19px #acffff;
+}
+button {
+  padding: 10px;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.blocks{
+  width: 100%;
+  min-height: 20px;
+  text-align: center;
+  color: black;
+  font-family: helvetica;
+  padding: 10px;
+}
+
+form input {
+  max-width: 60%;
+  padding: 6px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.input-group-text {
+  padding: 10px;
+  font-size: 30px
+}
+Tipamount {
+  padding: 30px;
+}
